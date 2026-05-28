@@ -1,34 +1,43 @@
-# Quick Scratchpad Chrome Extension (v1.6)
+# Quick Scratchpad Chrome Extension (v1.0)
 
-Quick Scratchpad is a minimal Chrome extension for instant note-taking.
+Quick Scratchpad is a privacy-first Chrome extension for fast note-taking, lightweight formatting, and one-click capture from any webpage.
 
-## New in v1.6
+## Features
 
-- **Save selected text from any webpage** using the browser right-click menu:
-  - Select text on a page
-  - Right-click
-  - Choose **Save to Scratchpad**
-  - The selected text is appended to the current scratchpad with source + timestamp metadata
-- Added a tiny **remove-format** button (`⊘`) to the inline formatting tooltip
+- Instant scratchpad in the popup for quick notes.
+- Full-view writing mode for longer notes.
+- Auto-save to local browser storage while typing.
+- Right-click any text on a webpage and choose **Save to Scratchpad** to append the selection with source and timestamp metadata.
+- Lightweight inline formatting for selected text:
+  - Bold
+  - Italic
+  - Underline
+  - Strikethrough
+  - Link insertion
+  - Remove formatting
+- Copy the current note to the clipboard.
+- Export the current note as a `.txt` file.
+- Dark and light theme support shared between popup and full view.
+- Live word and character counts.
+- Empty-state hints for quick keyboard help.
+- Plain-text paste behavior to keep formatting predictable.
 
-## Existing features
+## Keyboard Shortcuts
 
-- Very light inline text formatting for selected text in both popup and full view
-- Tooltip toolbar above selected text with icon-only controls
-- Unified button design across popup and full view
-- Non-repetitive feedback strategy (toast for direct actions, status bar for ongoing state)
-- Open full view in a separate tab for longer writing sessions
-- Copy note to clipboard
-- Export note as a `.txt` file
-- Helpful empty-state quick start hints for first-time users
-- Shared note + theme state between popup and full view
-- Keyboard shortcut support (`Ctrl+Shift+Y` on Windows/Linux, `Command+Shift+Y` on Mac)
-- Auto-saves notes locally
-- Word + character counts
+- `Ctrl+Shift+Y` on Windows/Linux or `Command+Shift+Y` on Mac: open Quick Scratchpad.
+- `Ctrl+S` or `Command+S`: save the current note.
+- `Ctrl+Shift+C` or `Command+Shift+C`: copy the current note.
 
-## Notes
+## Privacy
 
-- Data is stored in `chrome.storage.local`
-- No backend, no external dependencies, no tracking
-- Formatting remains intentionally minimal to keep the extension lightweight
-- Pasted content inside the editor is inserted as plain text to keep formatting predictable and clean
+- Notes are stored locally in `chrome.storage.local`.
+- No backend.
+- No external dependencies.
+- No tracking.
+
+## Usage
+
+1. Open the extension from the toolbar or use the keyboard shortcut.
+2. Type directly in the scratchpad, or switch to full view for longer writing.
+3. Select text on a webpage and use the context menu to capture it into the scratchpad.
+4. Use the toolbar buttons to copy, export, clear, or change theme.
