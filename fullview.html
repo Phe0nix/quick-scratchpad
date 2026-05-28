@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quick Scratchpad — Full View</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="fullview-body">
+    <main class="app-shell fullview-shell">
+      <header class="toolbar">
+        <div>
+          <span class="eyebrow">Focused writing space</span>
+          <h1>Quick Scratchpad</h1>
+          <p class="subtitle">Write longer notes, then copy or export when you're done.</p>
+        </div>
+        <div class="toolbar-actions wide-actions">
+          <button id="themeBtn" class="pill-btn toolbar-pill theme-pill">☾ <span>Theme</span></button>
+          <button id="copyBtn" class="pill-btn">📋 <span>Copy</span></button>
+          <button id="exportBtn" class="pill-btn">⬇ <span>Export</span></button>
+          <button id="clearBtn" class="pill-btn subtle-btn">✕ <span>Clear</span></button>
+        </div>
+      </header>
+
+      <section class="editor-shell fullview-editor-shell">
+        <div id="editor" class="editor" contenteditable="true" role="textbox" aria-multiline="true" aria-label="Scratchpad editor" data-placeholder="Start typing your note..."></div>
+        <div id="emptyHint" class="empty-hint empty-hint-full" aria-live="polite">
+          <strong>Quick start</strong>
+          <span>Ctrl/Cmd + S → save</span>
+          <span>Ctrl/Cmd + Shift + C → copy</span>
+          <span>Select text to lightly format it</span>
+        </div>
+      </section>
+
+      <div id="formatToolbar" class="format-toolbar" role="toolbar" aria-label="Text formatting toolbar">
+        <button class="format-btn" data-command="bold" title="Bold" aria-label="Bold">B</button>
+        <button class="format-btn" data-command="italic" title="Italic" aria-label="Italic">I</button>
+        <button class="format-btn" data-command="underline" title="Underline" aria-label="Underline">U</button>
+        <button class="format-btn" data-command="strikeThrough" title="Strikethrough" aria-label="Strikethrough">S</button>
+        <button class="format-btn" data-command="createLink" title="Add link" aria-label="Add link">🔗</button>
+        <button class="format-btn" data-command="removeFormatAll" title="Remove formatting" aria-label="Remove formatting">⊘</button>
+      </div>
+
+      <div id="toast" class="toast toast-full" role="status" aria-live="polite" aria-atomic="true"></div>
+
+      <footer class="statusbar fullview-statusbar">
+        <div class="stats">
+          <span id="wordCount">0 words</span>
+          <span aria-hidden="true">•</span>
+          <span id="charCount">0 chars</span>
+        </div>
+        <div class="footer-hints">
+          <span>Ctrl/Cmd + S to save</span>
+          <span aria-hidden="true">•</span>
+          <span>Ctrl/Cmd + Shift + C to copy</span>
+        </div>
+        <div id="saveStatus" class="save-status">Ready</div>
+      </footer>
+    </main>
+    <script src="shared.js"></script>
+    <script src="fullview.js"></script>
+  </body>
+</html>
