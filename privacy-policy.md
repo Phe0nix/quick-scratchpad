@@ -1,90 +1,159 @@
-Quick Scratchpad Privacy Policy
+# Quick Scratchpad Privacy Policy
 
-Last updated: May 2026
+**Last updated:** May 2026
 
-Quick Scratchpad is designed to be a fast, minimal, and privacy-first note-taking extension. Your privacy is important, and this extension is built to work entirely on your device without collecting or sharing personal data.
+---
 
-1. Overview
+## 📝 1. Overview
 
-Quick Scratchpad allows users to create notes and save selected text from webpages for personal use. All data is stored locally in your browser and is never transmitted to external servers.
+Quick Scratchpad is a fast, minimal, and privacy-first note-taking extension for Chrome.
 
-2. Data Collection
+This extension is designed to work entirely on your device.  
+We do not collect, transmit, or store any personal data externally.
 
-Quick Scratchpad does not collect or transmit any personal or sensitive user data.
+---
 
-The extension only processes the following information:
+## 📦 2. What Data We Handle
 
-• Notes created by the user  
-• Text explicitly selected and saved by the user from webpages  
-• The URL (domain) of the page where text was captured (for reference purposes only)  
-• Timestamp of when the capture occurred (generated locally)  
-• Theme preference (light or dark mode)
+Quick Scratchpad does **not collect or transmit any personal or sensitive user data**.
 
-Important:
-- Data is only processed when the user interacts with the extension.
-- No data is collected automatically or in the background.
+The extension only handles data that is **explicitly created or triggered by the user**, including:
 
-3. Website Content
+- Notes typed by the user  
+- Text selected and saved from webpages  
+- The domain (URL) of the source page (for reference)  
+- Timestamp of captured text (generated locally)  
+- Theme preference (light or dark mode)  
 
-When using the “Save to Scratchpad” feature:
-- Only the text that the user explicitly selects is saved.
-- The extension does not access or store full webpage content.
-- The extension does not track browsing activity.
+✅ **Important:**
+- Data is only processed during user actions  
+- No automatic data collection occurs  
 
-4. Data Storage
+---
 
-All data is stored locally using Chrome’s storage APIs:
-- Data remains on the user’s device
-- No cloud storage or external databases are used
-- Data is not shared with any third parties
+## 🌐 3. Website Content (Selected Text Only)
 
-5. Data Sharing
+Quick Scratchpad includes a feature to save selected text from webpages.
+
+When this feature is used:
+- Only the text **explicitly selected by the user** is saved  
+- A reference to the page’s domain may be stored  
+- A timestamp is generated locally  
+
+❌ The extension does **NOT**:
+- Access full webpage content  
+- Track browsing activity  
+- Monitor user behavior  
+
+---
+
+## 💾 4. Data Storage
+
+All data is stored locally using Chrome's storage APIs:
+
+- Stored on your device only  
+- Not uploaded to any server  
+- Not synchronized externally  
+- Not shared with third parties  
+
+---
+
+## 🔒 5. Data Sharing
 
 Quick Scratchpad:
-- Does not sell user data  
-- Does not share user data with third parties  
-- Does not transmit data outside the user’s browser  
 
-6. Permissions Usage
+- ❌ Does NOT sell user data  
+- ❌ Does NOT share data with third parties  
+- ❌ Does NOT transmit data outside your browser  
+
+---
+
+## 🔑 6. Permissions Usage
 
 The extension uses the following permissions:
 
-• storage  
-Used to save notes, preferences, and captured text locally in the browser.
+### `storage`
+Used to:
+- Save notes
+- Store selected text
+- Store theme preferences  
 
-• contextMenus  
-Used to provide the “Save to Scratchpad” option when a user right-clicks selected text on a webpage.
+### `contextMenus`
+Used to:
+- Add “Save to Scratchpad” option in the right-click menu  
+- Allow users to save selected text from webpages  
 
-These permissions are used solely to enable the extension’s core functionality.
+✅ These permissions are used **only** to enable core features.
 
-7. No Tracking or Analytics
+---
 
-Quick Scratchpad:
-- Does not use analytics tools  
-- Does not track user behavior  
-- Does not log browsing activity  
-- Does not monitor clicks, keystrokes, or interactions  
+## 🚫 7. No Tracking or Analytics
 
-8. Security
+Quick Scratchpad does not:
 
-All data remains within the browser and is protected by Chrome’s security model. Since the extension does not transmit or store data externally, the risk of data exposure is minimized.
+- Track browsing activity  
+- Use analytics tools  
+- Monitor clicks, typing, or interactions  
+- Collect usage metrics  
 
-9. Remote Code
+---
 
-Quick Scratchpad does not execute or load any remote code.
-All scripts and functionality are included within the extension package.
+## 🛡️ 8. Security
 
-10. User Control
+All data remains within your browser and is protected by Chrome’s security model.
 
-Users have full control over their data:
-- Notes can be edited or deleted at any time  
-- Clearing browser data will remove stored notes  
-- The extension does not retain data outside the browser  
+Since no external communication occurs:
+- Risk of data leakage is minimized  
+- No external attack surface is introduced  
 
-11. Changes to This Policy
+---
 
-This Privacy Policy may be updated if features or data handling practices change. Any updates will reflect the current behavior of the extension.
+## ⚙️ 9. Remote Code
 
-12. Contact
+Quick Scratchpad does **not use remote code**.
 
-If you have any questions about this Privacy Policy, you can contact the developer via the Chrome Web Store listing or associated project page.
+- All scripts are bundled inside the extension  
+- No external JavaScript or WebAssembly is loaded  
+- No use of `eval()` or dynamic code execution  
+
+---
+
+## 👤 10. User Control
+
+You have full control over your data:
+
+- Edit or delete notes anytime  
+- Clear data via browser storage  
+- Uninstall extension to remove all stored data  
+
+---
+
+## 🔄 11. Changes to This Policy
+
+This Privacy Policy may be updated if the extension’s functionality changes.
+
+Any updates will:
+- Reflect actual behavior  
+- Maintain transparency with users  
+
+---
+
+## 📬 12. Contact
+
+For any questions or concerns, please contact the developer through:
+
+- Chrome Web Store listing  
+- GitHub repository or project page  
+
+---
+
+## ✅ Summary
+
+Quick Scratchpad is built with a **privacy-first approach**:
+
+- ✅ No tracking  
+- ✅ No analytics  
+- ✅ No external servers  
+- ✅ No personal data collection  
+- ✅ All data stays on your device  
+``
